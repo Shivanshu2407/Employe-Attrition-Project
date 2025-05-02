@@ -39,18 +39,6 @@ The project utilizes several Python libraries, including:
 
 9. **Train and Evaluate a Deep Learning Model:** A deep learning model using TensorFlow and Keras is trained and evaluated using the prepared dataset.
 
-
-## Usage
-
-To run this project, you need to:
-
-1. **Mount your Google Drive** to access the dataset. You can do this using the following code snippet: from google.colab import drive drive.mount('/content/drive')
-
-2. **Load the dataset** using pandas: python employee_df = pd.read_csv('/content/drive/MyDrive/Data Science for Business/Human_Resources.csv')
-  
-3. **Follow the code cells in the notebook** to execute the data preprocessing, model training, and evaluation steps.
-
-
 ## Results
 
 The project evaluates the performance of each model using classification metrics and visualizes the results using confusion matrices and performance reports. You can observe the accuracy, precision, recall, and F1-score of each model to assess their effectiveness in predicting employee attrition.
